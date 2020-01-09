@@ -19,6 +19,6 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 */
 
 function songDecoder(song) {
-    let regex = /(WUB)+/g;
-    return song.replace(regex, ' ').trim();
+  let regex = /(WUB)+/g;
+  return song.replace(regex, ' ').trim();
 }

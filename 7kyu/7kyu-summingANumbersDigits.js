@@ -9,4 +9,4 @@ Let's assume that all numbers in the input will be integer values.
 */
 
 // solution
-const sumDigits = number => Math.abs(number).toString().split('').reduce((a,b) => +a + +b, 0);
+const sumDigits = number => Math.abs(number).toString().split('').reduce((a, b) => +a + +b, 0);
